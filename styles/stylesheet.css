@@ -11,9 +11,6 @@ h1:hover {
 }
 h2:hover {
     background-color: yellow;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
 }
 p {
     font-size: large;
@@ -23,14 +20,17 @@ p:hover {
 }
 a[href="https://matt5200.github.io/matt5200-github-portfolio.io/facts.html"]:hover {
     font-size: x-large;
+    font-style: italic;
     padding: 1rem;
 }
 a[href="https://matt5200.github.io/matt5200-github-portfolio.io/blog.html"]:hover {
     font-size: xx-large;
+    font-style: italic;
     padding: 1rem;
 }
 a[href="https://matt5200.github.io/matt5200-github-portfolio.io/"]:hover {
     font-size: xx-large;
+    font-style: italic;
     padding: 1rem;
 }
 .small {
