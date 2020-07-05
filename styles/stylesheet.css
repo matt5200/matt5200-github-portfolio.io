@@ -1,93 +1,50 @@
 body  {
     background-color: rgb(227, 250, 246);
-}
-
-h1 {
+    color: black;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-h2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+h1:hover {
+    background-color: violet;
 }
 
-h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-h4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-h5 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-h6 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-nav {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+h2:hover {
+    background-color: yellow;
 }
 
 p {
-    color: black;
     font-size: large;
-    font: medium;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
-img {
+p:hover {
+    background-color: greenyellow;
+}
+
+.small {
+    font-size: x-small;
+}
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-ul {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+a[href="https://matt5200.github.io/matt5200-github-portfolio.io/facts.html"]:hover {
+    font-size: x-large;
+    padding: 1rem;
 }
 
-ol {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+a[href="https://matt5200.github.io/matt5200-github-portfolio.io/blog.html"]:hover {
+    font-size: xx-large;
+    padding: 1rem;
 }
 
-small {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+a[href="https://matt5200.github.io/matt5200-github-portfolio.io/"]:hover {
+    font-size: xx-large;
+    padding: 1rem;
 }
 
-code {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
