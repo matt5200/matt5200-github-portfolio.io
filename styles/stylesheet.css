@@ -48,3 +48,26 @@ a[href="https://matt5200.github.io/matt5200-github-portfolio.io/"]:hover {
     font-size: x-large;
     font-style: italic;
 }
+.example-1 {
+    display: flex;
+    justify-content: center;
+}
+.example-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.example-3 {
+    display: flex;
+    justify-content: flex-end;
+}
+.example-4 {
+    display: flex;
+    justify-content: space-between;
+}
+.example-5 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    margin-top: 50px;
+}
