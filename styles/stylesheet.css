@@ -15,8 +15,14 @@ h2:hover {
 p {
     font-size: large;
 }
+p:hover:nth-child(2) {
+    transition: 3s;
+    background-color: cornflowerblue;
+    font-size: large;
+}
 p:hover {
     background-color: greenyellow;
+    transition: 2s;
 }
 a[href="https://matt5200.github.io/matt5200-github-portfolio.io/facts.html"]:hover {
     font-size: x-large;
